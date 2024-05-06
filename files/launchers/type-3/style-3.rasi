@@ -25,8 +25,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  true;
-    width:                       1366px;
-    height:                      768px;
+    width:                       1920px;
+    height:                      1080px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -36,7 +36,7 @@ window {
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
-    background-color:            black / 10%;
+    background-color:            black / 80%;
     cursor:                      "default";
 }
 
@@ -139,6 +139,8 @@ element normal.normal {
 element selected.normal {
     background-color:            white / 5%;
     text-color:                  @foreground;
+    border:                      1px solid;
+    border-color:                #FFA500;
 }
 element-icon {
     background-color:            transparent;
